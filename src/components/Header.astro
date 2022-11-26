@@ -1,0 +1,76 @@
+
+		<!--Nav for large screens-->
+		<header class="sticky flex items-center bg-white dark-bg-black h-20  lg-p-y-8">
+			<nav class="container container-xl flex justify-between items-center gap-8"
+					 aria-label="primary nav">
+				<!--Links-->
+				<ul class="flex items-center gap-8">
+					<!--Logo-->
+					<li class="m-r-8">
+						<a href="/" class="flex items-center">
+							<img alt="Zauberhaft Logo" src="/logo-40x40.png" class="w-10 h-10" width="100" height="100">
+							<div class="m-l-4 flex items-start flex-column xs-d-none sm-flex">
+								<h1 class="h5 font-bold line-h-lg">Gradas & Vallas CUU</h1>
+								<p class="small align-left">
+									By Kevin Dino
+								</p>
+							</div>
+						</a>
+					</li>
+					<li class="xs-d-none sm-flex">
+						<!--Toggle for dark mode-->
+						<fieldset>
+							<legend class="visually-hidden">Toggle for dark mode</legend>
+							<input class="toggle-input visually-hidden"
+										 id="switch"
+										 type="checkbox"
+										 role="switch">
+							<label for="switch"
+										 class="toggle-switch"
+										 aria-label="toggle switch">
+								<span class="visually-hidden">Label for the toggle</span>
+								<span class="toggle-round"></span>
+							</label>
+						</fieldset>
+					</li>
+				</ul>
+				<!--Hamburger button-->
+				<button class="btn-md p-0 bg-transparent gray-800 dark-gray-200 xs-d-flex md-d-none"
+								aria-label="Mobile menu"
+								aria-expanded="false">
+					<svg aria-label="hamburger menu"
+							 xmlns="http://www.w3.org/2000/svg"
+							 width="26"
+							 height="26"
+							 viewBox="0 0 24 24"
+							 fill="none"
+							 stroke="currentColor"
+							 stroke-width="2"
+							 stroke-linecap="round"
+							 stroke-linejoin="round"
+							 class="ai ai-TextAlignJustified m-r-3">
+						<title>Mobile hamburger menu icon</title>
+						<path d="M3 6h18M3 12h18M3 18h18"></path>
+					</svg>
+					Menu
+				</button>
+				<ul
+						class="xs-d-none md-flex  items-center gap-5 bg-gray-50 dark-bg-gray-800 dark-white md-p-r-4 md-p-l-6 md-p-y-3 radius-sm flex-wrap">
+					<!--Works-->
+					<li class="m-r-6">
+						<a href="#0" class="link-navbar">Productos</a>
+					</li>
+					<!--About-->
+					<li class="m-r-6">
+						<a href="#0" class="link-navbar">Contacto</a>
+					</li>
+					<!--Approach-->
+					<li class="m-r-4">
+						<a href="#0"
+							 class="link-navbar">Leer Correo</a>
+					</li>
+					
+				</ul>
+
+			</nav>
+		</header>
