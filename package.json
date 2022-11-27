@@ -17,6 +17,7 @@
     "dev": "concurrently 'npm:css-development' 'npm:start' ",
 		"astro-build": "astro build",
 		"build": "concurrently 'npm:css-production' 'npm:astro-build' ",
+    "postbuild": "node ./postbuild.mjs -path https://miwelomali.github.io/Vallas-Gradas-CUU/",
     "preview": "astro preview"
   },
   "bugs": {
