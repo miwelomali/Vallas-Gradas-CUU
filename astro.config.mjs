@@ -7,6 +7,4 @@ import netlify from "@astrojs/netlify/functions";
 export default defineConfig({
   site: 'https://miwelomali.github.io',
   base: '/Vallas-Gradas-CUU',
-  output: "server",
-  adapter: netlify()
 });
